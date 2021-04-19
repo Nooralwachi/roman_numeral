@@ -14,7 +14,6 @@ class Testword(unittest.TestCase):
         self.assertEqual(roman_numeral('VM'),995)
         self.assertEqual(roman_numeral('XIVC'),86)
         self.assertEqual(roman_numeral('MCM'),1900)
-        self.assertEqual(roman_numeral('MCMXII'),1912)
         self.assertEqual(roman_numeral('MM'),2000)
         self.assertEqual(roman_numeral('MMXXI'),2021)
 
